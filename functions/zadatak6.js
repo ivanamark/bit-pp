@@ -1,11 +1,14 @@
 
-var y = "*";
+var y = "";
 
 function draw(x) {
     for (var i = 0; i < x; i++) {
-       y=y+1;
+       y=y+"*";
     }
     return y;
+
+    
+ 
     
 }
 
