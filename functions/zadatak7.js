@@ -1,14 +1,7 @@
-
- var sum = 0;
-
-function sumOdd(a){
-    for(var i=0;i<a.length;i++){
-        if(a[i]%2==1){
-    sum+=a[i];
-        }
-
-    }
-    return sum;
+function zbir(numb) {
+    var str = "";
+    str += numb;
+    var a = str.length;
+    return a;
 }
-var result= sumOdd(a=[12,15,3,15,2,3]);
-console.log(result);
+console.log(zbir(587));

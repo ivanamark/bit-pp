@@ -11,5 +11,5 @@ function fiNd(str, n) {
     return -1;
 }
 
-result = fiNd("ivana", "m");
+result = fiNd("ivana", "a");
 console.log(result);

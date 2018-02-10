@@ -1,19 +1,30 @@
 
-var y = "";
 
-function draw(x) {
-    for (var i = 0; i < x; i++) {
-       y=y+"*";
+function crte(a, b, c) {
+    var res = " ";
+    var newLine = "\n";
+    var asterix = "*";
+    for (var i = 0; i < a; i++) {
+        res += asterix;
+
+
+
     }
-    return y;
+    res += newLine;
+    for (var j = 0; j < b; j++) {
+        res += asterix;
 
-    
- 
-    
+
+
+    }
+    res += newLine;
+    for (var k = 0; k < c; k++) {
+        res += asterix;
+
+
+
+    }
+    return res;
 }
-
-var result = draw(5);
+var result = crte(5, 6, 7);
 console.log(result);
-
-
-//Write a function that calculates the number of appearances of a letter a in a given string. Modify the function so it calculates the number of both letters a and A.
