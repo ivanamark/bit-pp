@@ -1,3 +1,4 @@
+"use strict";
 function maximum(a, b) {
     if (a > b) {
         return a
@@ -7,5 +8,6 @@ function maximum(a, b) {
         return b;
     }
 
-} result = maximum(4, 8);
+}
+var  result = maximum(4, 8);
 console.log(result);

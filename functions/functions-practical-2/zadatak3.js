@@ -1,3 +1,4 @@
+"use strict";
 function write(a, times) {
     var res = "";
     for (var i = 0; i < times; i++) {

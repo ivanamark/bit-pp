@@ -1,3 +1,4 @@
+"use strict";
 function dali(input) {
     if (typeof input === "string") {
         return true;

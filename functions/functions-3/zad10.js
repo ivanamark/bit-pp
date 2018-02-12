@@ -2,7 +2,7 @@ function findFrequentItem(inputArrey) {
     var mostFrequent = 1;
     var m = 0;
     var item;
-    for (let i = 0; i < inputArray.length; i++) {
+    for (var i = 0; i < inputArray.length; i++) {
         for (var j = i; j < inputArrey.length; j++) {
             if (inputArrey[i] == inputArrey[j]) {
                 m++;

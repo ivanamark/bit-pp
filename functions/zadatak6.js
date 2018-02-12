@@ -1,4 +1,5 @@
 
+"use strict";
 var y = "";
 
 function draw(x) {

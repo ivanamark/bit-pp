@@ -1,4 +1,4 @@
-
+"use strict";
  var sum = 0;
 
 function sumOdd(a){
@@ -10,5 +10,5 @@ function sumOdd(a){
     }
     return sum;
 }
-var result= sumOdd(a=[12,15,3,15,2,3]);
+var result= sumOdd([12,15,3,15,2,3]);
 console.log(result);

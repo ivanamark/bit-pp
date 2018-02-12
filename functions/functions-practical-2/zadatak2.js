@@ -1,5 +1,5 @@
 
-
+"use strict";
 function something(myString) {
     if (myString.length === 0) {
         myString = true;

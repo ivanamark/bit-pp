@@ -1,4 +1,4 @@
-
+"use strict";
 function conCate(str, y) {
     var res = "";
     for (var i = 0; i < y; i++) {

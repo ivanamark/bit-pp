@@ -1,4 +1,5 @@
-function ivana(a) {
+"use strict";
+function prefilled(a) {
     var rez ="";
    
     for (var i = 0; i < a.length; i++) {
@@ -17,6 +18,6 @@ function ivana(a) {
     return rez;
 
 }
-var result = ivana(a = [NaN, 0, 15, false, -22, '', undefined, 47, null]);
+var result = prefilled( [NaN, 0, 15, false, -22, '', undefined, 47, null]);
 console.log(result);
 console.log(typeof result);

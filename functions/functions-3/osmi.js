@@ -1,12 +1,13 @@
+"use strict";
 function search_word(text, word){
     
     var x = 0, y=0;
    
-    for (i=0;i< text.length;i++)
+    for (var i=0;i< text.length;i++)
         {
         if(text[i] == word[0])
             {
-            for(j=i;j< i+word.length;j++)
+            for(var j=i;j< i+word.length;j++)
                {
                 if(text[j]==word[j-i])
                   {

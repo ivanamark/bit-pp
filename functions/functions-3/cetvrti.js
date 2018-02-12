@@ -1,3 +1,4 @@
+"use strict";
 function reverse(num) {
     num = num + "";
     var output = "";

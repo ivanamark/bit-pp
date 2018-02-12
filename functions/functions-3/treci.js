@@ -1,26 +1,23 @@
-function ivana(a) {
-    var rez =[];
-    var comma = ',';
-    for (var i = 0; i < a.length; i++) {
-        var char = a[i];
-       var number=parseInt(char);
-        
-        if( number !== undefined && number !== null && number !== false && number !== 0 && number !== "" && !isNaN(number)){   
-           
-           
-            rez+= number+comma; 
+function falsy(a) {
+    var rez = [];
+    var newIndex =0;
 
-            
+    for (var i = 0; i < a.length; i++) {
+        var arrElement = a[i];
+
+        if (!!arrElement) {
+            rez[newIndex] = arrElement;
+            newIndex++;
         }
-         
+
 
     }
 
 
-    return [rez];
-    
+    return rez;
+
 }
-var result = ivana(a = [NaN, 0, 15, false, -22, '', undefined, 47, null]);
+var result = falsy([NaN, 0, 15, false, -22, '', undefined, 47, null]);
 
 console.log(result);
 

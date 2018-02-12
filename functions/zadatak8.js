@@ -1,8 +1,9 @@
+"use strict";
 var broj=5;
 var _array=[1, 5, 15, 5, 6, 5];
 function baba(_array) {
     var poj = 0;
-    for (i = 0; i < _array.length; i++) {
+    for (var i = 0; i < _array.length; i++) {
         if (_array[i] === broj) {
             poj = poj + 1;
         }
