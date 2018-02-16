@@ -1,6 +1,7 @@
+"use strict";
 function _array(a) {
     var res = 0;
-    for (i = 0; i < a.length; i++) {
+    for (var i = 0; i < a.length; i++) {
         if (a[i] === "a" || a[i] === "A") {
            res=res+1;
         }

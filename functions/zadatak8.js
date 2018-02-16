@@ -1,6 +1,6 @@
-var broj = 15;
-var _array = [1, 5, 15, 5, 6, 5];
-
+"use strict";
+var broj=5;
+var _array=[1, 5, 15, 5, 6, 5];
 function baba(_array) {
     var poj = 0;
     for (var i = 0; i < _array.length; i++) {

@@ -1,3 +1,4 @@
+"use strict";
 function fiNd(str, n) {
     var position;
     for (var i = 0; i < str.length; i++) {
@@ -11,5 +12,9 @@ function fiNd(str, n) {
     return -1;
 }
 
+<<<<<<< HEAD
 result = fiNd("ivana", "a");
+=======
+var result = fiNd("ivana", "m");
+>>>>>>> functions-3
 console.log(result);

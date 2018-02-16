@@ -1,3 +1,4 @@
+"use strict";
 function aritmetic(a,b,c,d){
     var sum = a+b+c+d;
     return sum/4;

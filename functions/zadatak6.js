@@ -1,5 +1,3 @@
-
-
 function crte(a, b, c) {
     var res = " ";
     var newLine = "\n";

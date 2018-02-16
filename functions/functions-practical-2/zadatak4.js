@@ -1,3 +1,4 @@
+"use strict";
 function findLetter(str, letter) {
     var counter = 0;
     for (var i = 0; i < str.length; i++) {
