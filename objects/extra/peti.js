@@ -35,7 +35,7 @@ function proSubstring(array) {
     return arrey1;
 
 }
-// console.log(proSubstring(["JavaScript", "Programming", "fun", "product"]));
+console.log(proSubstring(["JavaScript", "Programming", "fun", "product"]));
 
 function filterArray(myArr, test) {
     var resultArr = [];
