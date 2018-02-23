@@ -1,4 +1,7 @@
+"use strict";
+
 (function () {
+
     function Product(name, price, exDate) {
         this.id = (function () {
             return Math.floor(Math.random() * (99999 - 10000) + 10000);
@@ -53,7 +56,7 @@
 
 
     function PaymentCard(accountBalance, status, validUntilDate) {
-        this.accountBalance = accountBalance.toFixed(2);
+        this.accountBalance = parseFloat(accountBalance.toFixed(2));
         this.status = status;
         this.validUntilDate = new Date(validUntilDate);
 
