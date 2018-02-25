@@ -9,6 +9,6 @@
 function calculateSupply(age, amountPerDay) {
     var maxAge = 90;
     var NN = (maxAge - age) * 365 * parseFloat(amountPerDay.toFixed());
-    return "You will need " + NN + " to last you until the ripe old age of " + age;
+    return "You will need " + NN + " to last you until the ripe old age of " + maxAge;
 }
-console.log(calculateSupply(36, 3.18));
+console.log(calculateSupply(36,3.18));
