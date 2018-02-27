@@ -12,9 +12,6 @@ function fiNd(str, n) {
     return -1;
 }
 
-<<<<<<< HEAD
-result = fiNd("ivana", "a");
-=======
+
 var result = fiNd("ivana", "m");
->>>>>>> functions-3
 console.log(result);
