@@ -1,5 +1,5 @@
 var listOfMovies=[];
-
+var listOfPrograms=[];
 
 function Movie(title, length, genre) {
     this.title = title;
@@ -37,4 +37,39 @@ function createMovie() {
     console.log(listOfMovies);
     
 }
-  
+//**************DRUGI DEO********************* */
+function Program(date) {
+    this.date =new Date(date);
+}
+Program.prototype.getData = function () {
+    return this.date;
+}
+
+Program.prototype.addMovie = function (movie) {
+    this.movieList.push(movie);
+}
+
+
+
+
+document.querySelector("#create-date").addEventListener("click", function (event) {
+    createProgram();
+
+})
+
+
+function createProgram() {
+    var date = document.querySelector("#program-date").value;
+
+    var programDate = new Program(date);
+    
+
+}
+//ispis
+
+
+
+
+function addMovieToProgram () {
+    return this.date + ", " + this.movie.getData ();
+}
