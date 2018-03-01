@@ -12,11 +12,14 @@ Movie.prototype.getData = function () {
     var result = firstLetter + lastLetter;
     return this.title + ', ' + this.length + 'min' + ", " + result.toUpperCase();
 }
-var superman = new Movie("Superman", "action", 145);
+// var superman = new Movie("Superman", "action", 145);
 
 
 document.querySelector('.create-movie').addEventListener("click", function (event) {
     createMovie();
+    
+
+
 });
 
 function createMovie() {
@@ -25,6 +28,7 @@ function createMovie() {
     var objDropdown = document.getElementById("genre-select");
     var selectedOption = objDropdown.options[objDropdown.selectedIndex];
     var genre = selectedOption.value;
+
 
     var movie = new Movie(title, length, genre);
 
