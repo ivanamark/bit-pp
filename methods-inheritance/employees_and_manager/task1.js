@@ -58,9 +58,9 @@ Manager.prototype = Object.create(Person.prototype);
 Manager.prototype.constructor = Manager;
 
 
-var e1 =  new Employee ("selena", "gacic", "agriculture", 10000);
+var e1 =  new Employee ("Ivana", "Markovic", "Web designer", 45000);
 // console.log(e1);
 
-var m1 = new Manager ("selena", "gacic", "agriculture", 10000)
+var m1 = new Manager ("Ivana", "Markovic", "Front and web developer", 50000)
 // console.log(m1);
 m1.increaseSalary();
